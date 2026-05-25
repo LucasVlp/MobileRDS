@@ -1,0 +1,4 @@
+Liberar a execução de scripts no PowerShell para permitir a execução de scripts personalizados, como o script de instalação do Node.js.
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
